@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Florian A\303\237mann"]
-  s.date = %q{2009-11-03}
+  s.date = %q{2009-11-18}
   s.description = %q{v is for versioned. It's is currently only a threaded wrapper for the git commands or procedures. In the future it should provide a generic interface for diverse VCSs.}
   s.email = %q{florian.assmann@email.de}
   s.extra_rdoc_files = [
@@ -20,6 +20,7 @@ Gem::Specification.new do |s|
     ".document",
      ".gitignore",
      ".watchr",
+     ".yardoc",
      "LICENSE",
      "README.markdown",
      "Rakefile",
@@ -57,7 +58,11 @@ Gem::Specification.new do |s|
      "lib/v/errors.rb",
      "lib/v/future.rb",
      "lib/v/operation.rb",
-     "lib/v/worker.rb"
+     "lib/v/worker.rb",
+     "test/teststrap.rb",
+     "test/v_test.rb",
+     "test/work_tree/file",
+     "v.gemspec"
   ]
   s.homepage = %q{http://github.com/boof/v}
   s.rdoc_options = ["--charset=UTF-8"]
