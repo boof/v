@@ -131,7 +131,7 @@ Note on Patches/Pull Requests
 Required
 --------
 
- * git 1.6+
+ * git 1.6.3+
  * fastthread
 
 Thanks
