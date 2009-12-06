@@ -78,8 +78,9 @@ module V
     end
 
     # TODO: replace this stub
+
     require 'logger'
-    @@logger = Logger.new STDERR
+    @@logger = Logger.new $stdout
     @@logger.level = Logger::INFO
 
     def self.logger
