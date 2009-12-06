@@ -12,7 +12,7 @@ module V
       end
 
       at_exit {
-        if defined? Test::Unit
+        if defined? Test::Unit::AutoRunner
           unless $! or Test::Unit.respond_to?(:run?) && Test::Unit.run?
             test_result = Test::Unit::AutoRunner.run
             instance.enclose
