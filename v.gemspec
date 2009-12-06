@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{v}
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Florian A\303\237mann"]
-  s.date = %q{2009-11-18}
+  s.date = %q{2009-12-06}
   s.description = %q{v is for versioned. It's is currently only a threaded wrapper for the git commands or procedures. In the future it should provide a generic interface for diverse VCSs.}
   s.email = %q{florian.assmann@email.de}
   s.extra_rdoc_files = [
